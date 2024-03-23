@@ -4,7 +4,8 @@ import React from 'react'
 const Book = () => {
   return (
     <View>
-      <Text>Book</Text>
+        <Text>Nome do Livro é {props.nome}</Text>
+        <Text></Text>
     </View>
   )
 }
